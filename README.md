@@ -6,7 +6,7 @@
 <h1 align="center">Onto-Interactive Question Answering Bot </h1> 
 
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
-![GitHub Pipenv locked Python version](https://img.shields.io/github/pipenv/locked/python-version/JessicaSosua/OntoIQA-Bot?style=flat-square)
+![GitHub Pipenv locked Python version](https://img.shields.io/github/pipenv/locked/python-version/JessicaSousa/OntoIQA-Bot?style=flat-square)
 ![GitHub](https://img.shields.io/github/license/JessicaSousa/OntoIQA-Bot?style=flat-square)
 
 
