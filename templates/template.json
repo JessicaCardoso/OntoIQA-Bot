@@ -1,0 +1,79 @@
+{
+    "welcome": [
+        {
+            "text": "\ud83d\ude42 Bem vindo(a) ao *IQA IMDB (bot)*!\n\nEste bot tem como objetivo responder perguntas no dom\u00ednio do IMBD.\n\n    \ud83d\udccc Dicas e instru\u00e7\u00f5es de uso podem ser acessadas atrav\u00e9s do comando /help.\n    \ud83d\udccc Informa\u00e7\u00f5es sobre o bot est\u00e3o dispon\u00edveis no comando /about.\n\n*Aperte em um dos bot\u00f5es abaixo para ver mais informa\u00e7\u00f5es.*",
+            "src": "",
+            "src_type": ""
+        },
+        {
+            "text": "\u2754 *Como utilizar este bot:* \n\n   1\ufe0f\u20e3  Use o comando `/start_iqa` para iniciar a conversa.\n\ufe0f          \ud83d\udca1 Voc\u00ea poder\u00e1 usar esse comando novamente ap\u00f3s finalizar uma conversa com o comando `/done`.\n   2\ufe0f\u20e3  _Envie a pergunta desejada no campo de enviar mensagem._\n          \ud83d\udca1 Voc\u00ea poder\u00e1 ver alguns exemplos de perguntas ao utilizar o comando `/examples`.\n   3\ufe0f\u20e3  Para finalizar a conversa utilize o comando `/done`.\n\n*Para ver mais dicas e instru\u00e7\u00f5es de uso, utilize o comando /help.*",
+            "src": "",
+            "src_type": ""
+        }
+    ],
+    "start_iqa": {
+        "private": {
+            "text": "Ol\u00e1, por favor, envie a pergunta desejada para que eu possa responder. Para finalizar a nossa conversa use o comando /done."
+        },
+        "public": {
+            "text": "A conversa \u00e9 iniciada apenas em *chat privado*\u2755.",
+            "button_text": "\ud83d\udfe2 Iniciar"
+        }
+    },
+    "examples": {
+        "text": "Voc\u00ea pode clicar em um dos exemplos abaixo para enviar uma pergunta ao Bot.",
+        "examples": [
+            "Qual \u00e9 o g\u00eanero do filme Goodfellas?",
+            "Qual \u00e9 a data de nascimento da ator Leonardo DiCaprio?",
+            "Liste-me os filmes do g\u00eanero aventura.",
+            "Quais s\u00e3o filmes do diretor Quentin Tarantino?",
+            "Qual foi o or\u00e7amento do filme Goodfellas?",
+            "O ator Leonardo DiCaprio ganhou quais pr\u00eamios?"
+        ]
+    },
+    "loading": {
+        "text": "\u23f3 _Consultando a base, aguarde, por favor..._"
+    },
+    "help": [
+        {
+            "text": "Seja bem-vindo(a) ao menu de *Ajuda*\n\nA conversa \u00e9 iniciada usando o comando `/start_iqa` e finalizada com o comando `/done`. Voc\u00ea pode repetir esse processo v\u00e1rias vezes, caso haja algum erro, voc\u00ea pode me contatar via @JessicaContatoBot.\n\n \u203c\ufe0f \u00c9 necess\u00e1rio especificar o tipo do que se \u00e9 perguntado, a seguir mostramos exemplos onde o tipo est\u00e1 destacado em negrito.\n\n          - Quais os filmes do *g\u00eanero* terror?\n          - Quais os filmes com o *ator* Leonardo DiCaprio?\n          - Quais os filmes da *empresa* Paramount?\n          - Quem dirigiu o *filme* Goodfellas?\n\nVoc\u00ea pode utilizar os bot\u00f5es de navega\u00e7\u00e3o abaixo para ver mais informa\u00e7\u00f5es.",
+            "src": "AgACAgEAAxkBAAMHXx9R9OQPtul-l8uSSFjKQnxn-d4AAhiqMRsyiPhEpAXYYW0IQR1Yu24GAAQBAAMCAANtAAPf9QMAARoE",
+            "src_type": "photo"
+        },
+        {
+            "text": "Para cada pergunta que voc\u00ea realiza \u00e9 esperada uma mensagem, se tudo ocorrer bem, as mensagens informar\u00e3o  a voc\u00ea que nenhum resultado foi encontrado ou a resposta.\n\n`Obs: Por causa do dataset o t\u00edtulo de filmes e s\u00e9ries devem ser informadas na sua l\u00edngua original. Como exemplo podemos mencionar a s\u00e9rie 'Um Maluco no Peda\u00e7o' a qual deve ser referenciada como 'The Fresh Prince of Bel-air'.`",
+            "src": "AgACAgEAAxkBAAMIXx8hY9VY6AV9bsF825Gz2GTPTjkAAhqqMRsyiPhExWnFxiDGB_NpwW4GAAQBAAMCAANtAAMI_AMAARoE",
+            "src_type": "photo"
+        },
+        {
+            "text": "Al\u00e9m da resposta, uma lista de *sugest\u00f5es relacionadas a pergunta* ir\u00e1 aparecer. Voc\u00ea pode selecionar uma dessas sugest\u00f5es ou apenas ignorar e fazer outra pergunta. A lista de sugest\u00f5es \u00e9 exibida abaixo do campo de mensagem.",
+            "src": "AgACAgEAAxkBAAMHXx8hVHMrFd6kQwRCEdIdH9jJEKoAAhmqMRsyiPhE9rnRITRBsmFbuG4GAAQBAAMCAANtAANZCwQAARoE",
+            "src_type": "photo"
+        }
+    ],
+    "about": [
+        {
+            "text": "O *IQA IMDb (bot)* foi desenvolvido em python utilizando a biblioteca [python-telegram-bot](https://python-telegram-bot.org/). Utilizamos a ontologia [IMDB Movie Ontology](https://github.com/ontop/ontop/wiki/Example_MovieOntology) como caso de uso.",
+            "src": "",
+            "src_type": ""
+        }
+    ],
+    "done": {
+        "redirect": {
+            "text": "Conversa finalizada, at\u00e9 a pr\u00f3xima \ud83d\udc4b. Voc\u00ea pode iniciar outra conversa utilizando o comando `/start_iqa`. Para avaliar este bot acesse o [questionário](https://forms.gle/F9JczCW1AR7jmRkS7) e informe o seguinte ID `{0}` no campo requisitado."
+        },
+        "default": {
+            "text": "Voc\u00ea deve enviar pelo menos uma mensagem antes de finalizar a conversa."
+        }
+    },
+    "eval_options": [
+        [
+            "Certo \u2714\ufe0f",
+            1
+        ],
+        [
+            "Errado \u274c",
+            0
+        ]
+    ]
+}

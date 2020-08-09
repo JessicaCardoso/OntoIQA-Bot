@@ -1,0 +1,3 @@
+[submodule "models/ontoexplorer"]
+	path = models/ontoexplorer
+	url = https://github.com/JessicaSousa/ontoexplorer.git
